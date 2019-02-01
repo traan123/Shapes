@@ -11,11 +11,11 @@ public class Circular implements Shapes{
 	}
 	
 	public double getVolume() {
-		return Math.pow(r,2) * h * Math.PI;
+		return Math.pow(r,2) * l * Math.PI;
 	}
 	
 	public double getSurfaceArea() {
-		return (2 * Math.PI * r * h) + (2 * Math.PI * Math.pow(r,2));
+		return (2 * Math.PI * r * l) + (2 * Math.PI * Math.pow(r,2));
 	}
 	
 	public double getL() {

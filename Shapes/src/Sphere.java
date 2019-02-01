@@ -6,7 +6,7 @@ public class Sphere extends Circular{
 	}
 	
 	public double getVolume() {
-		return 4/3 * (Math.PI * Math.pow(super.getR(), 3));
+		return (4 / 3) * Math.PI * Math.pow(super.getR(), 3);
 	}
 	
 	public double getSurfaceArea() {
